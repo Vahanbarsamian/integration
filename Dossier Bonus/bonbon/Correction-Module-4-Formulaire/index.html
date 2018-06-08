@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mon Formulaire</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- CSS Vendor -->
+		<link href="https://fonts.googleapis.com/css?family=Lato|Pacifico" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" media="all" />
+		<!-- CSS Perso -->
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+	</head>
+	<body>
+		<!--HEADER-->
+		<header>
+			<h1>Je suis un joli Formulaire</h1>
+		</header>
+		<!--MAIN CONTENT-->
+		<main>
+			<form id="contact-form">
+  <fieldset>
+  <legend>Voici mes informations</legend>
+  <p>Mon
+    <label for="your-name">nom</label> est
+    <input type="text" name="your-name" id="your-name" minlength="3" placeholder="(votre nom ici)"> et</p>
+
+  <p>mon
+    <label for="email">email</label> est
+    <input type="email" name="your-email" id="email" placeholder="(votre email ici)">
+  </p>
+  <p>
+  <input type="checkbox" id="super"> 
+  <label for="super">Super</label>
+  <input type="checkbox" id="genial">
+  <label for="genial">Génial</label>
+  </p>
+  <p>
+  <input type="radio" id="super2" name="radios"> 
+  <label for="super2">Super</label>
+  <input type="radio" id="genial2" name="radios">
+  <label for="genial2">Génial</label>
+  </p>
+
+  <p> J'ai un
+    <label for="your-message">message</label> pour toi,
+  </p>
+  <p>
+    <textarea name="your-message" id="your-message" placeholder="(votre message ici)" class="expanding" required></textarea>
+  </p>
+  <p>
+    <button type="submit">
+      <img src="img/send.svg" alt="Envoyer"/>
+      
+      <small>Envoyer</small>
+    </button>
+  </p>
+</fieldset>
+</form>
+		</main>
+		<!--FOOTER-->
+		
+	</body>
+</html>

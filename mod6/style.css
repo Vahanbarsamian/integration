@@ -1,0 +1,88 @@
+* {
+	
+	box-sizing: border-box;
+}
+
+/*Global*/
+
+body {
+	margin:	0;
+	padding: 0;
+font-family: 'Playfair Display', serif;
+line-height: 1.3em;
+}
+
+/*Header*/
+
+header{
+	text-align: center;
+	background-image: url('../img/fond.jpg');
+	background-size: 100% auto;
+	padding-bottom: 191px;
+	color:#faedff;
+}
+
+header p {
+	padding: 9px 0 10px 0;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(252,252,252,0.45) 0%, rgba(233,221,243,0.47) 52%, rgba(216,193,235,0.4) 100%);
+background: -webkit-radial-gradient(center, ellipse cover, rgba(252,252,252,0.45) 0%,rgba(233,221,243,0.47) 52%,rgba(216,193,235,0.4) 100%);
+background: radial-gradient(ellipse at center, rgba(252,252,252,0.45) 0%,rgba(233,221,243,0.47) 52%,rgba(216,193,235,0.4) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73fcfcfc', endColorstr='#66d8c1eb',GradientType=1 );
+}
+
+header p i {
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+header h1 {
+	padding-top: 89px;
+	color: #fff;
+	font-family: 'Kaushan Script', cursive;
+	text-shadow: 4px 4px 2px rgba(0, 0, 2, 0.23);
+}
+
+img {
+	max-width:100%;
+}
+
+.fas{
+	display: block;
+}
+
+/*Nav*/
+
+nav a {
+	display: inline-block;
+	padding: 30px 50px 30px 50px;
+	color: #fffeff;
+	font-family: 'Kaushan Script', cursive;
+}
+
+
+
+
+
+/*Footer*/
+
+footer {
+text-align: center;
+color: #fff;	
+background-color: #8d6fd1;
+font-size: 0.7em
+}
+
+footer a {
+ text-decoration: none;
+ color: #fff;
+}
+
+footer img {
+	margin-top: 10px;
+	width: 25px;
+}
+footer p {
+	margin: 0;
+	padding: 10px;
+	line-height: normal;
+}

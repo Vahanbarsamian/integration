@@ -1,0 +1,160 @@
+* {
+	
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1em;
+	margin:	0;
+	padding: 0;
+	color: #fff;
+	}
+
+header{
+	text-align: center;
+	background-image: url('../img/fond.jpg');
+	background-size: 100% auto;
+	padding-bottom: 301px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+header p {
+	padding: 9px 0 10px 0;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(252,252,252,0.45) 0%, rgba(233,221,243,0.47) 52%, rgba(216,193,235,0.4) 100%);
+background: -webkit-radial-gradient(center, ellipse cover, rgba(252,252,252,0.45) 0%,rgba(233,221,243,0.47) 52%,rgba(216,193,235,0.4) 100%);
+background: radial-gradient(ellipse at center, rgba(252,252,252,0.45) 0%,rgba(233,221,243,0.47) 52%,rgba(216,193,235,0.4) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73fcfcfc', endColorstr='#66d8c1eb',GradientType=1 );
+
+font-family: 'Playfair Display SC', serif;
+}
+
+header p i {
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+header h1 {
+	padding-top: 141px;
+	font-size: 2em;	
+}
+
+img {
+	max-width:100%;
+}
+
+.fas{
+	display: block;
+}
+
+nav a {
+	display: inline-block;
+	padding: 30px 50px 30px 50px;
+	color: #fff;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
+#posture article {
+padding-bottom: 20px;
+color: #656f7d;
+padding: 30px 0 20px 0;
+padding: 30px 0	20px 0;
+}
+
+#posture h2{
+	text-align: center;
+	padding: 100px 0 20px 0;
+	text-align: center;
+padding: 20px 0 0px 0;
+
+}
+
+#posture p {
+	
+	max-width: 95%;
+	line-height: 2em;
+}
+
+#posture article:nth-of-type(even) p {
+    padding-left: 20px;
+}
+
+
+#posture img {
+	width: 280px;
+	float:left;
+	padding: 0	20px 20px 20px;
+    padding: 11px 20px 20px 20px;
+    padding: 11px 20px 20px 20px;
+}
+
+
+#posture article:nth-of-type(even) img{
+	float: right;
+}
+
+
+#posture hr {
+	width: 80%;
+color: #e2d6e3;
+}
+
+
+
+#cours {
+	text-align: center;
+	background: rgb(140,110,210);
+background: -moz-linear-gradient(45deg, rgba(140,110,210,1) 0%, rgba(216,193,235,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(140,110,210,1) 0%,rgba(216,193,235,1) 100%);
+background: linear-gradient(45deg, rgba(140,110,210,1) 0%,rgba(216,193,235,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c6ed2', endColorstr='#d8c1eb',GradientType=1 );
+padding-bottom: 2.5em;
+
+}
+
+
+#cours article {
+display: inline-block;
+width: 30%;
+padding-left: 10px;
+}
+
+#cours p {
+padding: 0 30px 0 30px;
+line-height: 2em;
+}
+
+
+#cours img {
+	width: 150px;
+}
+
+
+
+.clearfix {
+	clear: both;
+	display: block;
+}
+
+
+footer {
+text-align: center;
+background-color: #8d6fd1;
+font-size: 0.7em;
+
+}
+
+footer a {
+ color: #fff;
+ 
+}
+
+footer img {
+	margin-top: 10px;
+	width: 25px;
+}
+
+footer p {
+	margin: 0;
+	padding: 10px;
+}

@@ -1,0 +1,134 @@
+html {
+
+	font-size: 62.5%;
+}
+
+body {
+background :  url('../img/fond.png') ;
+font-size: 1.6rem;
+color: #6d726f;
+}
+
+/*header*/
+
+header{
+	background-color: #b8cb21;
+	height: 140px;
+
+}
+
+header nav a{
+	margin-left: 40px;
+	color: #2f4c21;
+text-transform: uppercase;
+}
+
+/*nav */
+
+nav {
+margin-top: 50px;
+	float: right;
+	font-family: 'Oswald', sans-serif;
+
+	
+}
+
+/*Main*/
+
+main,header {
+max-width: 750px;
+margin: 0 auto;
+
+
+}
+
+
+main {
+	background-color: #ffffff;
+	margin-bottom: 20px;
+	max-width: 690px;
+	padding: 30px;
+}
+
+
+
+/*h1 et h2*/
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	margin-top: 0px;
+	color: #b3cc30; 
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: normal;
+}
+
+
+h1 i,h2 i {
+
+padding-left: 2px;
+padding-right: 10px;
+
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	margin-top: 30px;
+	color: #b3cc30; 
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: normal;
+}
+
+/*Section*/
+
+
+section img {
+	float: left;
+	width: 200px;
+	padding: 4px 10px 2px 0;
+}
+
+section p {
+
+	margin-bottom: 0;
+	line-height: 20px;
+
+}
+
+/*Class*/
+
+.readmore {
+
+	float: right;
+	background-color: #b8cb21;
+text-decoration: none;
+color: white;
+padding: 10px;
+margin-top: 5px;
+	
+}
+
+.clearfix {
+clear: both;
+display:block;
+}
+
+/*footer*/
+
+footer {
+
+	text-align: center;
+}
+
+footer p {
+text-align: center;
+font-size: 0.8em;
+margin: 0 auto;
+
+}
+
+footer img {
+
+	width: 60px;
+}

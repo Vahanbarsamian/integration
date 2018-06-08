@@ -1,0 +1,25 @@
+div {
+
+	border: 1px solid black;
+	padding:20px;
+}
+#grandpere {
+font-size:10px;
+
+}
+#papa {
+font-size:2em;
+position: relative;
+
+}
+#fils {
+font-size:1rem;
+position: fixed;
+top: 0;
+left: 0;
+
+}
+.petit-fils {
+font-size:2em;
+
+}

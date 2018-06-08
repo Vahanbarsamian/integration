@@ -1,0 +1,154 @@
+/** GLOBAL **/
+* {
+	box-sizing: border-box;
+	outline: none;
+	text-decoration: none;
+	transition: all .2s ease 0s;
+    /* Visualisation des éléments */
+    /*border: 1px dotted rgba(0,0,0,0.3);*/
+}
+
+*:hover {
+	transition: all .2s ease 0s;
+}
+
+html {font-size: 62.5%}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    line-height: 1.6;
+    font-family: 'Lato', georgia;
+  	color: rgba(255, 255, 255, 1);
+  	background-color: rgba(236, 181, 62, 0.95);
+ 	 text-align: center;
+  	font-weight: 300;
+}
+
+a, a:hover, a:visited, a:active {
+	text-decoration: none;
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	font-size:5rem;
+	font-weight: normal
+}
+fieldset{
+	border-color:white;
+}
+
+legend{
+    text-align: center;
+    width: 100%;
+    background: white;
+    color:rgba(236, 181, 62, 0.95);
+    font-family: 'Pacifico', cursive;
+    font-size:4rem;
+}
+button{
+  cursor:pointer;
+}
+
+button img{
+	width:100px;
+}
+
+#contact-form {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+textarea,
+input {
+  outline: none;
+  border-radius: 0;
+  text-align: center;
+  background: none;
+  font-weight: 700;
+  font-family: 'Lato', georgia;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+  max-width: 90%;
+  padding: 1rem;
+  border: 2px dashed rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  cursor: text;
+}
+
+textarea {
+  text-align: left;
+  /* overflow:hidden; */
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+  resize: none;
+  width: 90%;
+}
+
+textarea:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px dashed rgba(255, 255, 255, 1);
+}
+
+input {
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+input:focus {
+  border-bottom: 2px dashed rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  margin: 2vmax;
+}
+
+button:hover small {
+  opacity: 1;
+}
+
+button small {
+  display: block;
+  opacity: 0;
+}
+footer{padding:50px 0;}

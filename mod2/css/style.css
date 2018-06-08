@@ -1,0 +1,100 @@
+html {
+font-size: 62.5%;
+}
+
+
+body {
+background-image: url("../img/bunting.png");
+background-repeat: repeat-x;
+font-size: 1.6rem;
+}
+
+h1{ 
+margin-top: 100px;
+font-family: 'Blacksword';
+text-align: center;
+font-size: 6em;
+font-weight: normal;
+color: #5e5c5d;
+ }
+
+/*Article*/
+
+article,header{
+max-width: 1000px;
+margin:0 auto;
+
+ }
+
+ h2 {
+ margin-top: 60px;
+ margin-bottom: 10px;	
+font-family: 'Blacksword';
+font-size: 3em;
+text-align: left;
+font-weight: normal;
+color: #5e5c5d;
+ }
+
+h3{
+font-size: 2em;
+font-family: 'Blacksword';
+font-weight: normal;
+color: #5e5c5d;
+}
+
+
+ p {
+ 	text-indent: 20px;
+ 	font-family: 'Cardo';
+ 	color:#5e5c5d;
+ 	font-size: 2em;
+ 	line-height: 50px;
+ 	
+ }
+  strong{
+color:#e8a9bc;
+ }
+
+
+
+ q {
+
+font-size: 35px;
+font-family: Cardo italic;
+text-align: center;
+display: block;
+ 	margin-top :120px;
+ 	text-align: center;
+ }
+
+
+ cite{
+ 	display :block;
+text-align: right;
+margin-bottom: 35px;
+ }
+
+/*Pied de page */
+
+ footer {
+display:block;
+width: 600px;
+text-align: center;
+font-size:15px;
+margin:0 auto;
+
+ }
+
+
+ img {
+
+ 	width:50px;
+ }
+
+
+
+a {
+color:#f2a5c9; 
+text-decoration: none;
+}

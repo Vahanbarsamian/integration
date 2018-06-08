@@ -1,0 +1,48 @@
+section {
+	border-top : 2px solid black;
+border-bottom: 2px solid black;
+}
+
+p {
+font-size: 20px;
+
+
+}
+
+ .arial {
+font-family: Arial,sans-serif;
+color:grey;
+ }
+
+ .rouge {
+color:red;
+ }
+
+  .vert{
+color:green;
+ }
+ .bleu{
+color:blue;
+ }
+ .fond {
+font-family: monospace, serif;
+color:grey;
+ }
+ .bgrouge {
+background-color:red;
+ }
+  .bggbleu{
+background-color:blue;
+ }
+  .bgvert{
+background-color:green;
+ }
+
+footer p,footer {
+ 	font-size: 15px;
+ 	margin: 30px 0 30px 0;
+text-align: center;
+}
+.violet a {
+color:purple;
+}

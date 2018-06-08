@@ -1,0 +1,263 @@
+* {
+	
+	box-sizing: border-box;
+}
+
+/*Global*/
+
+body {
+	margin:	0;
+	padding: 0;
+font-family: 'Playfair Display', serif;
+line-height: 1.3em;
+color: grey
+}
+
+/*Header*/
+
+header{
+	text-align: center;
+	background-image: url('../img/fond.jpg');
+	background-size: 100% auto;
+	padding-bottom: 191px;
+	color:#faedff;
+}
+
+header p {
+	padding: 9px 0 10px 0;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(252,252,252,0.45) 0%, rgba(233,221,243,0.47) 52%, rgba(216,193,235,0.4) 100%);
+background: -webkit-radial-gradient(center, ellipse cover, rgba(252,252,252,0.45) 0%,rgba(233,221,243,0.47) 52%,rgba(216,193,235,0.4) 100%);
+background: radial-gradient(ellipse at center, rgba(252,252,252,0.45) 0%,rgba(233,221,243,0.47) 52%,rgba(216,193,235,0.4) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73fcfcfc', endColorstr='#66d8c1eb',GradientType=1 );
+}
+
+header p i {
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+header h1 {
+	padding-top: 89px;
+	color: #fff;
+	font-family: 'Kaushan Script', cursive;
+	text-shadow: 4px 4px 2px rgba(0, 0, 2, 0.23);
+}
+
+img {
+	max-width:100%;
+}
+
+.fas{
+	display: block;
+}
+
+/*Nav*/
+
+nav a {
+	display: inline-block;
+	padding: 30px 50px 30px 50px;
+	color: #fffeff;
+	font-family: 'Kaushan Script', cursive;
+}
+
+/*Section1*/
+
+
+#posture  {
+	color: #5e646f;
+}
+
+#posture hr {
+	color: #5e646f;
+}
+
+#posture h2{
+
+	text-align: center;
+	padding: 53px 0 20px 0;
+	font-weight: normal;
+}
+
+
+#posture img {
+	width: 280px;
+	float:left;
+	padding: 0 20px 0 0px;
+}
+
+
+#posture article:nth-of-type(even) img{
+	float: right;
+	padding: 0 0 0 20px;
+}
+
+#posture hr {
+	width: 80%;
+
+}
+
+article {
+padding-bottom: 20px;
+}
+
+/*Section 2*/
+
+#cours {
+	text-align: center;
+	background: rgb(140,110,210);
+background: -moz-linear-gradient(45deg, rgba(140,110,210,1) 0%, rgba(216,193,235,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(140,110,210,1) 0%,rgba(216,193,235,1) 100%);
+background: linear-gradient(45deg, rgba(140,110,210,1) 0%,rgba(216,193,235,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c6ed2', endColorstr='#d8c1eb',GradientType=1 );
+padding:5em 0 5em	0;
+}
+
+#cours article {
+display: inline-block;
+width: 30%;
+padding-left: 10px;
+color: #fff;
+padding: 0 1em 0 1em;
+}
+
+#cours img {
+	width: 150px;
+}
+
+.clearfix {
+	clear: both;
+	display: block;
+}
+
+/*Footer*/
+
+footer {
+text-align: center;
+color: #fff;	
+background-color: #8d6fd1;
+font-size: 0.7em
+
+}
+
+footer a {
+ text-decoration: none;
+ color: #fff;
+}
+
+footer img {
+	margin-top: 10px;
+	width: 25px;
+}
+footer p {
+	margin: 0;
+	padding: 10px;
+	line-height: normal;
+}
+
+/*Contact*/
+
+#form,#calendar, #posture {
+	margin: 0 auto;
+	max-width: 90%;
+
+	
+}
+
+/*table*/
+
+caption {
+text-align: center;
+font-size: 1.5em;
+padding: 1.4em 0 1em 0;
+color: #46517f;
+}
+
+ table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 25px;
+	font-size: 1em;
+	}
+
+	table a {
+		text-decoration: none;
+		color: #b38bbf;
+	}
+
+th, td, tr{
+	border: 1px solid grey;
+	padding: 1em 31px 1em 31px;
+	text-align: center;
+	font-style: none;
+	}
+	th{
+
+	font-family: 'Kaushan Script', cursive;
+	
+	}
+
+
+td:first-child {
+	text-align: left;
+}
+ th {
+ 	text-align: left;
+ 	padding-left: 2em;
+ 	background-color: #c4a5de;
+ 	color: #fff;
+ 	font-size: 1.5em
+ }
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+/*Form*/
+
+
+
+
+#form label{
+	font-size: 1em;
+}
+
+#form h2 {
+	text-align: center;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+#form fieldset{
+	text-align: center;
+	padding: 2em 0 1.4em 0;
+	margin-top: 15px;
+}
+
+#form fieldset:nth-of-type(4) {
+	margin-bottom: 20px;
+}
+
+
+#form label, input{
+	font-size: .8em;
+	padding: 0 .7em 0 2em;
+}
+
+#form select{
+	text-align: left;
+	width: 90%;
+}
+
+button {
+display: block;
+padding: 7px 1em 7px 1em;
+background-color: #905bcf;
+color: #fff;
+margin: 0 auto 15px;
+border: 0;
+}
+
+input[type="text"]{
+	border: 0;
+	border-bottom: 1px solid grey;
+	}
