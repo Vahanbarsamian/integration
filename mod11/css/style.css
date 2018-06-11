@@ -3,7 +3,12 @@
 }
 
 a:hover {
-	transform: translate(10px);
+	opacity: .6;
+	-webkit-transform: scale(.8);
+	   -moz-transform: scale(.8);
+	    -ms-transform: scale(.8);
+	     -o-transform: scale(.8);
+	        transform: scale(.8);
 	transition: all .4s ease-in-out	;
 }
 
@@ -41,10 +46,19 @@ p {
 	font-size: 2em;
 }
 
+header {
+	background-color: #fcfcfc;
+}
+
 header nav {
 	font-size: 1.4em;
 	color: #6091b2;
 	font-weight: bold;
+}
+
+header nav a {
+	text-decoration: none;
+
 }
 
  nav ul  {
@@ -73,11 +87,6 @@ nav > ul  {
 
 nav ul li {
 	padding : 20px;
-}
-
-header nav a {
-	text-decoration: none;
-
 }
 
  #section1 {
@@ -109,7 +118,9 @@ form input {
 	background: transparent;
 	color: hsl(0.0, 0.0%, 100.0%);
 	text-transform: uppercase;
-	padding-left: 35%;
+	margin-left: 165px;
+	padding-left: 8%;
+	width: 100%;
 }
 
 form label {
@@ -138,9 +149,13 @@ form label {
 	font-size: 1.5em;
 }
 
- .choix article  a:hover {
-	display: inline-block;
-	transform: translate(10px);
+ .choix a:hover {
+	display: block;
+	-webkit-transform: translate(10px);
+	   -moz-transform: translate(10px);
+	    -ms-transform: translate(10px);
+	     -o-transform: translate(10px);
+	        transform: translate(10px);;
 	transition: all .4s ease-in-out	;
 }
 
@@ -180,8 +195,8 @@ footer {
 
 small p {
 	font-size: 1.3em;
-padding: 0% 10% 1% 10%;
-color: hsl(0.0, 0.0%, 100.0%);
+	padding: 0% 20% 1% 20%;
+	color: hsl(0.0, 0.0%, 100.0%);
 } 
 
 small p a {
@@ -191,7 +206,7 @@ text-decoration: none;
 
 
 footer nav {
-	padding-top: 10%;
+	padding-top: 3%;
 }
 
 footer li a {
@@ -203,4 +218,43 @@ footer li a {
 footer img {
 	width: 50px;
 	margin-top: 2%;
+}
+
+@media screen and (min-width: 960px){
+	header nav ul {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }	
+
+
+.choix {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+.choix h2 {
+	flex-basis: 100%;
+	margin-bottom: 10px;
+	}
+
+.choix article {
+	flex: 1;
+	padding: 0 10px 0 10px;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+footer nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 0 20px 0 20px;
+}
+	
 }
