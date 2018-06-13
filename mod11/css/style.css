@@ -2,14 +2,20 @@
 	box-sizing: border-box;
 }
 
-a:hover {
+a:hover, .active {
 	opacity: .6;
+	color: #fab8c1; 
 	-webkit-transform: scale(.8);
 	   -moz-transform: scale(.8);
 	    -ms-transform: scale(.8);
 	     -o-transform: scale(.8);
 	        transform: scale(.8);
 	transition: all .4s ease-in-out	;
+
+}
+
+ a:hover .fas, a.active .fas {
+	color: #001f2c;
 }
 
 
@@ -19,6 +25,7 @@ a:hover {
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	color: #9e999e;
 }
 
 img {
@@ -135,12 +142,39 @@ form label {
 	text-align: left;
 }
 
+#section2 article.contact{
+	
+}
+
 .choix {
 	text-align: center; 
 	display: flex;
 	flex-direction: column;
 	color: grey;
+}
 
+#section2 .contact a {
+	display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#section2 .contact a i {
+	flex-basis: 100%;
+	border-bottom: 1px dashed ;
+}
+
+
+#section2 .contact a span {
+	color: #726d67;
+}
+
+#section2 article:nth-child(4) span {
+	font-style: italic;
 }
 
 .choix a {
@@ -160,12 +194,11 @@ form label {
 }
 
 .choix h2 {
-	margin: 15% 0 10% 0;
+	margin: 15% 0 4% 0;
 	border: 1px dashed #889596;
 	border-bottom: none;
 	padding: 5% 0 5% 0;
 }
-
 
 .choix h3 {
 	padding: 2% 0 2% 0;
@@ -175,7 +208,6 @@ form label {
 .choix a .fas {
 	font-size: 2em;
 	padding: 2% 0 2% 0;
-
 }
 
 .choix p {
@@ -189,8 +221,7 @@ form label {
 
 footer {
 	background-color:#213e4e; 
-	text-align: center;
-	
+	text-align: center;	
 }
 
 small p {
@@ -203,7 +234,6 @@ small p a {
 color: hsl(0.0, 0.0%, 100.0%);
 text-decoration: none;
 } 
-
 
 footer nav {
 	padding-top: 3%;
@@ -219,6 +249,67 @@ footer img {
 	width: 50px;
 	margin-top: 2%;
 }
+
+footer.contact {
+	margin-top: 0;
+}
+
+
+ article.mutualise {
+	margin: 0 auto;
+	border: 1px dashed #203c47; 
+	padding: 3%;
+	margin: 40px 0 20px 0;
+}
+
+#section2 article.mutualise p{
+	text-align: center;
+	margin: 15px 0 15px 0;
+	font-size: 1.2em;
+}
+
+article.mutualise > a > p:nth-child(4) {
+	font-weight: bold;
+	font-family: 'Candal', sans-serif;
+}
+
+article.mutualise h3 {
+	padding: 30px;
+	background-color: #213e4e;
+	color: #fefdff;
+	margin-bottom: 20px;
+}
+
+article.mutualise  a span {
+    padding: 15px;
+    color: hsl(0.0, 0.0%, 100.0%);
+    background-color: #fb8b9b;
+    display: block;
+    font-weight: bold;
+    font-family: 'Candal', sans-serif;
+}
+
+article.mutualise ul {
+	list-style-type: circle; 
+}
+
+article.mutualise a {
+	color: #606873;
+}
+
+footer.mutualise {
+	margin-top: 40px;
+}
+
+iframe {
+	width: 100%;
+	margin-top: 6%;
+	border-top: 2px solid grey;
+}
+
+/****************
+   home/page
+****************/
 
 @media screen and (min-width: 960px){
 	header nav ul {
@@ -244,10 +335,33 @@ footer img {
 .choix article {
 	flex: 1;
 	padding: 0 10px 0 10px;
+
+}
+
+article.mutualise+article {
+	margin-left: 2%;
+	
+}
+
+article.mutualise {
+	padding: 2% 1%;
+	align-self: flex-start;
+}
+
+article.mutualise ul {
+
+}
+
+article.mutualise ul li {
+	text-align: left;
+	margin: 2% 1%;
+	width: 75%;
+	margin: 0 auto;
 }
 
 footer {
 	margin-top: 30px;
+	margin: 7% 0 2% 0;
 }
 
 footer nav ul {
