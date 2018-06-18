@@ -125,13 +125,14 @@ form input {
 	background: transparent;
 	color: hsl(0.0, 0.0%, 100.0%);
 	text-transform: uppercase;
-	margin-left: 165px;
+	/*margin-left: 165px;*/
 	padding-left: 8%;
 	width: 100%;
 }
 
 form label {
-	margin-left: -200px;
+	position: absolute;
+	left: -20000px;
 }
 
 .choix article {
@@ -313,20 +314,20 @@ iframe {
 
 @media screen and (min-width: 960px){
 	header nav ul {
-	display: flex;
+	/*display: flex;*/
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     }	
 
 
-.choix {
+/*.choix {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	
 }
-
+*/
 .choix h2 {
 	flex-basis: 100%;
 	margin-bottom: 10px;

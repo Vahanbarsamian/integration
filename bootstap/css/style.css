@@ -1,0 +1,14 @@
+#carouselExampleIndicators {
+	background: hsla(41, 9%, 73%, 0.36);
+}
+
+.section {
+	margin:50px 0;
+	padding: 50px 0;
+	border-top: 1px solid lightgrey;
+}	
+
+h1,h2 {
+	margin-bottom: 20px;
+
+}
